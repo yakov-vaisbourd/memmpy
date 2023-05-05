@@ -11,8 +11,7 @@ The goal of this notebook is to provide a documentation for memmpy, a python pac
 <br>
 <p align="center">
 <center style="font-size:14px"> 
-<em> Maximum Entropy on the Mean and the Cramér Rate Function in Statistical Estimation and Inverse Problems: Properties, Models and Algorithms
-<br>by Yakov Vaisbourd, Rustum Choksi, Ariel Goodwin, Tim Hoheisel, and Carola-Bibiane Schönlieb</em>
+<em> Maximum Entropy on the Mean and the Cramér Rate Function in Statistical Estimation and Inverse Problems: Properties, Models and Algorithms by Yakov Vaisbourd, Rustum Choksi, Ariel Goodwin, Tim Hoheisel, and Carola-Bibiane Schönlieb</em>
 </center>
 </p>
 
