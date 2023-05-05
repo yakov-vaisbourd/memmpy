@@ -3,15 +3,16 @@
 ## Introduction
 The maximum entropy on the mean (MEM) is an information driven statistical estimation method. In its core lies the MEM function defined as
 
-$$ \kappa_P(y):=\inf \left\{\text{KL}(Q, P): E_Q=y, Q\ll P \right\},$$
+$$ \kappa_P(y):=\inf \{\text{KL}(Q, P): E_Q=y, Q\ll P \},$$
 
 where $P$ is a given reference distribution, $\text{KL}(Q,P)$ is the Kullback-Leibler divergence of a distribution $Q$ with respect to $P$, $E_Q$ stands for the mathematical expectation of $Q$ and finally $Q\ll P$ indicates that $Q$ is absolutely continuous with respect to $P$. Under some conditions, the function $\kappa_P$ coincides with the Cramér rate function which admits a closed form or computationally tractable expression for many popular choices of reference distribution $P$.
 
 The goal of this notebook is to provide a documentation for memmpy, a python package supplementing the paper:
 <br>
 <center style="font-size:14px"> <em> Maximum Entropy on the Mean and the Cramér Rate Function in Statistical Estimation and Inverse Problems: Properties, Models and Algorithms
-by Yakov Vaisbourd, Rustum Choksi, Ariel Goodwin, Tim Hoheisel, and Carola-Bibiane Schönlieb</em></center>
+<br>by Yakov Vaisbourd, Rustum Choksi, Ariel Goodwin, Tim Hoheisel, and Carola-Bibiane Schönlieb</em></center>
 
+<br>
 
 Additional details, proofs and examples can be found in the above reference and the supplemental material file that is available with this package.
 
@@ -141,7 +142,7 @@ plt.xlim(plt_lb, plt_ub)
 plt.show()
 ```
 
-![img.png](images\cramer_bernoulli.png)
+![img.png](https://github.com/yakov-vaisbourd/memmpy/blob/master/images\cramer_bernoulli.png)
 
 ## Examples
 
@@ -237,11 +238,11 @@ plt.show()
 ```
 The barcode images:
 
-![img_1.png](images\barcode_img.png)
+![img_1.png](https://github.com/yakov-vaisbourd/memmpy/blob/master/images\barcode_img.png)
 
 Plot of objective value at each iteration:
 
-![img_2.png](images\barcode_obj.png)
+![img_2.png](https://github.com/yakov-vaisbourd/memmpy/blob/master/images\barcode_obj.png)
 
 ### Natural Image Deblurring
 
@@ -326,8 +327,8 @@ plt.show()
 ```
 The images:
 
-![img_3.png](images\natural_img.png)
+![img_3.png](https://github.com/yakov-vaisbourd/memmpy/blob/master/images\natural_img.png)
 
 Plot of objective value at each iteration:
 
-![img_4.png](images\natural_obj.png)
+![img_4.png](https://github.com/yakov-vaisbourd/memmpy/blob/master/images\natural_obj.png)
