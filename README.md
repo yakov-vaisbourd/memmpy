@@ -201,7 +201,7 @@ def f_grad(x, is_residual=False):
 
 f = mtd.ObjectiveFunction(val=f_val, grad=f_grad, residual=f_residual,
                           kernel=mtd.KernelFunction(normal.kernel_val, normal.kernel_grad, normal.kernel_grad_dual, is_normal=True),
-                          smoothness_constant=np.max(np.max(np.abs(spectra) ** 2)))
+                          smoothness_constant=np.max(np.abs(spectra) ** 2))
 
 # Define model functions - regularization function - g
 bernoulli.freeze(np.full_like(img_obs, 0.5))
