@@ -296,7 +296,7 @@ g = mtd.ObjectiveFunction(val=lambda x: reg_par * norminvgauss.cramer(x),
                           proximal_operator= lambda x, t: norminvgauss.bregman_prox_gen('Normal')(x, reg_par * t))
 
 # Define the linear mapping - L
-L = mtd.LinearMap(lambda x: ip.dif_map(x, 'periodic'), lambda y: ip.dif_map_adj(y, 'periodic'), 3) # 3/reg_par)
+L = mtd.LinearMap(lambda x: ip.dif_map(x, 'periodic'), lambda y: ip.dif_map_adj(y, 'periodic'), 3)
 
 # Define model entity
 data = mtd.ProblemData(f, g, L, img, img_obs)
